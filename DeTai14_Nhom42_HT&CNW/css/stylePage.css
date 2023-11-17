@@ -1,0 +1,182 @@
+.mySlides {
+    display:none;
+    width:100%;
+    height: 460px;
+    
+    } 
+.button-left{left:1%; font-size:20px} 
+.button-right{right:1%; font-size:20px } 
+.image-button{border:none;display:inline-block;padding:10px;height:50px;vertical-align:middle;overflow:hidden; color:#fff;background:#000;position:absolute;top:calc(50% - 25px); opacity:0.5;} 
+.image-button:hover{color:#000;background-color:#ccc;} .display-container{position:relative}
+
+.number-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .number-box button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #ddd;
+  }
+  
+  .number-box .value {
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+  }
+  .button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .button-container>button{
+    background-color: #007bff;
+  }
+  
+  .buy-button,
+  .installment-button {
+    padding: 15px 50px;
+    margin: 0 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .buy-button:hover {
+    background-color: #4CAF50;
+    color: rgb(255, 255, 255);
+  }
+  
+  .installment-button:hover {
+    background-color: #f44336;
+    color: white;
+  }
+        
+
+.gif{
+    width: 100px;
+}
+#anhSP{
+    width: 800px;
+}
+#anhTT{
+    width: 200px;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #333;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.social-icons a:hover {
+    background-color: #4267B2; /* Màu của Facebook */
+}
+/********************************
+.listThem {
+list-style-type: none;
+border: 1px solid black;
+padding: 10px;
+font-family: Arial, sans-serif;
+/* Thêm các thuộc tính CSS khác tùy thuộc vào thiết kế của bạn */
+
+
+.listThem h2 {
+font-size: 20px;
+margin-bottom: 10px;
+}
+
+.listThem li {
+display: flex;
+align-items: center;
+margin-bottom: 15px;
+}
+
+.listThem figure {
+margin: 0;
+}
+
+.listThem figure img {
+width: 100px;
+height: auto;
+margin-right: 10px;
+border-radius: 5px;
+}
+
+.listThem figcaption {
+margin: 0;
+}
+
+.listThem figcaption a {
+text-decoration: none;
+color: #333;
+font-weight: bold;
+transition: color 0.3s ease;
+}
+
+.listThem figcaption a:hover {
+color: #007bff;
+}
+
+.product-list {
+    overflow-x: auto; /* Cho phép cuộn ngang nếu danh sách quá rộng */
+  }
+  
+  .products {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    border-radius: 5px;
+  }
+  
+  .products li {
+    margin-right: 20px; /* Khoảng cách giữa các sản phẩm */
+    border: 1px solid #ccc; /* Thêm border */
+    padding: 10px; /* Padding để tạo khoảng cách giữa border và nội dung */
+  }
+  
+  .products li:last-child {
+    margin-right: 0; /* Loại bỏ khoảng cách bên phải của sản phẩm cuối cùng */
+  }
+  
+  .products li figure {
+    margin: 0;
+    text-align: center;
+  }
+  
+  .products li img {
+    width: 230px; /* Độ rộng hình ảnh sản phẩm */
+    height: auto;
+    
+  }
+  
+  .products li figcaption {
+    margin-top: 5px;
+    font-style: italic;
+  }
+  
+a{
+    text-decoration: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}

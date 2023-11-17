@@ -1,0 +1,157 @@
+body{
+    background-color: whitesmoke;
+}
+header{
+    margin: 10px;
+}
+#logo{
+    border-radius: 50px 50px 10px ;
+}
+#nav-head{
+    background-color: rgb(193, 186, 237);
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+#nav-head >li{
+    margin-right: 40px;
+}
+#logoLogin{
+    width: 50px;
+}
+.product{
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    height: 300px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
+    
+}
+.product >a{
+    text-decoration: none;
+}
+#product-main{
+    max-width: 1000px;
+    
+}
+.product> img{
+    width: 180px; 
+    
+}
+.mySlides {
+    display:none;
+    width:100%;
+    border-radius: 10px;
+}
+
+.title-cam >a>img{
+    width: 150px;
+    height: 50px;
+}
+footer{
+    background-color: whitesmoke;
+    text-align: left;
+}
+
+.pagination {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+  }
+  
+  .pagination a.active {
+    background-color: #ddd;
+  }
+  
+  .pagination a:hover:not(.active) {
+    background-color: #f1f1f1;
+  }
+  
+  .pagination a.prev,
+  .pagination a.next {
+    background-color: #f1f1f1;
+  }
+  
+  .pagination a.prev:hover,
+  .pagination a.next:hover {
+    background-color: #ddd;
+  }
+  
+  /* Optional: Style for disabled state */
+  .pagination .disabled {
+    pointer-events: none;
+    opacity: 0.6;
+  }
+.linkEnd>a{
+    text-decoration: none;
+    color: rgb(129, 124, 118);
+}  
+/* Đảm bảo rằng bạn đã kết nối với Font Awesome trong mã HTML của bạn */
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #333;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    background-color: #4267B2; /* Màu của Facebook */
+  }
+  
+  /* Màu sắc và các thuộc tính CSS khác có thể thay đổi tùy thuộc vào thiết kế của bạn */
+  #search-box {
+    display: none;
+  }
+  #search-box >input{
+    padding: 5px 100px;
+    border: none;
+    border-radius: 5px;
+  }
+  #search-box.active {
+    display: block;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  #hide-search{
+    padding: 5px 20px;
+    border-radius: 10px;
+  }
+  
+  .search-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .search-icon {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
